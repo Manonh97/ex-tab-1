@@ -33,8 +33,22 @@ nombres = [[18,55], [29,13], [-2,15],[66,44]]
     ECRIRE MAX(nombres)
 
 FIN
+\\ex 3 tableaux
+\\ Module principal
+DÉBUT
 
-\\ex 4 tableaux
+nombres = [[18,55], [29,13], [-2,15],[66,44]]
+    
+POUR TAB = 1 JUSQU'A 4 FAIRE 
+    ECRIRE "le plus grand de chaque tableau est " , MAX(nombres[TAB])
+    
+FINPOUR
+             
+FIN         
+
+
+
+\\ex  4tableaux
 \\ Module principal
 DÉBUT
 
@@ -53,4 +67,18 @@ FINPOUR
 
 
 FIN    
+
+\\ex 4 simplifié
+\\ Module principal 
+DEBUT
+
+apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]
+POUR i = 1 JUSQU'A 5 FAIRE
+  ECRIRE apprenants [1][i] , "est chez les 2024"
+FINPOUR
+POUR y = 1 JUSQU'A 5 FAIRE
+  ECRIRE apprenants [2][y] , "est chez les 2023"
+FINPOUR
+
+FIN
 
