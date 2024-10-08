@@ -34,3 +34,23 @@ nombres = [[18,55], [29,13], [-2,15],[66,44]]
 
 FIN
 
+\\ex 4 tableaux
+\\ Module principal
+DÉBUT
+
+apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]
+
+POUR i =  1 JUSQU'A 1 FAIRE
+    POUR y = 1 JUSQU'A 5 FAIRE
+    ECRIRE apprenants [i][y]  + " est chez les 2024"
+FINPOUR 
+    FINPOUR
+POUR i = 2  JUSQU'A 2 FAIRE
+    POUR y = 1 JUSQU'A 5 FAIRE
+    ECRIRE apprenants [i][y]  + " est chez les 2023"
+FINPOUR
+    FINPOUR
+
+
+FIN    
+
