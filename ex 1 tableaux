@@ -24,3 +24,13 @@ POUR nombre = 1 JUSQU'A 5 FAIRE
 FINPOUR
 
 FIN
+
+\\ex 3 tableaux
+\\ Module principal
+DÉBUT
+ 
+nombres = [[18,55], [29,13], [-2,15],[66,44]]
+    ECRIRE MAX(nombres)
+
+FIN
+
