@@ -1,0 +1,26 @@
+\\ex 1 tableau
+
+\\ Module principal
+DÉBUT
+ 
+eleve = ["marie","carl","julie","manon","pierre"]
+
+POUR nombre = 1 JUSQU'A 5 FAIRE
+    ECRIRE eleve [nombre], "est dans la classe de devs " 
+FINPOUR
+
+FIN
+
+\\ex 2 tableau 
+
+\\ Module principal
+DÉBUT
+ 
+eleve = ["marie","carl","julie","manon","pierre"]
+competence = ["html", "css", "javascript", "php", "Java"]
+
+POUR nombre = 1 JUSQU'A 5 FAIRE
+    ECRIRE eleve [nombre], "est dans la classe de devs " + competence [nombre]
+FINPOUR
+
+FIN
